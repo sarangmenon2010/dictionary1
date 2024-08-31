@@ -33,3 +33,16 @@ print(sst)
 
 sst["civics"] = "indian judiciary"
 print(sst)
+sst["mathematics"] = "squares and square roots"
+print(sst)
+print(len(sst))
+for i in sst:
+    print(i)
+
+for i in sst.values():
+    print(i)
+
+sst.pop("mathematics")
+print(sst)
+sst.popitem()
+print(sst)
